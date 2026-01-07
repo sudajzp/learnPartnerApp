@@ -1,0 +1,82 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 - 增强科技感的渐变背景 -->
+  <defs>
+    <radialGradient id="bgGradient" cx="256" cy="256" r="256" fx="256" fy="256">
+      <stop offset="0%" stop-color="#4A90E2" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2C5AA0" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#bgGradient)"/>
+  
+  <!-- 增强的AI科技光环效果 -->
+  <circle cx="256" cy="256" r="230" stroke="#00FFFF" stroke-width="8" fill="none" stroke-dasharray="8 12" opacity="0.8"/>
+  <circle cx="256" cy="256" r="210" stroke="#00FFFF" stroke-width="6" fill="none" stroke-dasharray="6 10" opacity="0.6"/>
+  <circle cx="256" cy="256" r="190" stroke="#00FFFF" stroke-width="4" fill="none" stroke-dasharray="4 8" opacity="0.4"/>
+  
+  <!-- AI 光环脉动效果（额外的半透明光环） -->
+  <circle cx="256" cy="256" r="220" stroke="#00FFFF" stroke-width="3" fill="none" stroke-dasharray="2 6" opacity="0.3"/>
+  <circle cx="256" cy="256" r="200" stroke="#00FFFF" stroke-width="2" fill="none" stroke-dasharray="3 7" opacity="0.2"/>
+  
+  <!-- 书本 - 更具科技感的设计 -->
+  <rect x="128" y="160" width="256" height="240" rx="16" fill="#FFFFFF" stroke="#333333" stroke-width="8"/>
+  <rect x="256" y="160" width="2" height="240" fill="#333333"/>
+  <rect x="144" y="192" width="224" height="16" rx="4" fill="#E0E0E0"/>
+  <rect x="144" y="224" width="224" height="16" rx="4" fill="#E0E0E0"/>
+  <rect x="144" y="256" width="224" height="16" rx="4" fill="#E0E0E0"/>
+  <rect x="144" y="288" width="224" height="16" rx="4" fill="#E0E0E0"/>
+  <rect x="144" y="320" width="224" height="16" rx="4" fill="#E0E0E0"/>
+  
+  <!-- 增强的AI符号在书本上 -->
+  <path d="M240 360 L240 380 L272 380 L272 360 M256 350 L256 390" stroke="#4A90E2" stroke-width="8" stroke-linecap="round"/>
+  <!-- AI符号的环绕光环 -->
+  <circle cx="256" cy="370" r="24" stroke="#00FFFF" stroke-width="2" fill="none" stroke-dasharray="4 4" opacity="0.7"/>
+  
+  <!-- 人物头部 - 更具科技感的设计 -->
+  <circle cx="256" cy="120" r="40" fill="#FFD700" stroke="#333333" stroke-width="8"/>
+  
+  <!-- 人物眼睛 - 更智能、更具科技感的眼神 -->
+  <circle cx="240" cy="110" r="8" fill="#4A90E2" stroke="#333333" stroke-width="2"/>
+  <circle cx="240" cy="108" r="3" fill="#FFFFFF"/>
+  <circle cx="272" cy="110" r="8" fill="#4A90E2" stroke="#333333" stroke-width="2"/>
+  <circle cx="272" cy="108" r="3" fill="#FFFFFF"/>
+  <!-- 眼睛的AI连接效果 -->
+  <circle cx="240" cy="110" r="12" stroke="#00FFFF" stroke-width="1" fill="none" opacity="0.8"/>
+  <circle cx="272" cy="110" r="12" stroke="#00FFFF" stroke-width="1" fill="none" opacity="0.8"/>
+  
+  <!-- 人物嘴巴 -->
+  <path d="M240 130 Q256 140 272 130" stroke="#333333" stroke-width="4" fill="none"/>
+  
+  <!-- 人物身体 -->
+  <rect x="232" y="160" width="48" height="40" fill="#FFD700" stroke="#333333" stroke-width="8"/>
+  
+  <!-- 增强的AI连接线条 - 更具动态感 -->
+  <path d="M200 200 C180 180 170 140 216 120" stroke="#00FFFF" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M312 200 C332 180 342 140 296 120" stroke="#00FFFF" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 连接线的节点 -->
+  <circle cx="200" cy="200" r="4" fill="#00FFFF"/>
+  <circle cx="312" cy="200" r="4" fill="#00FFFF"/>
+  <circle cx="216" cy="120" r="4" fill="#00FFFF"/>
+  <circle cx="296" cy="120" r="4" fill="#00FFFF"/>
+  
+  <!-- 增强的大脑图标（更具科技感的AI元素） -->
+  <circle cx="256" cy="80" r="14" fill="#FFD700" stroke="#333333" stroke-width="3"/>
+  <!-- 大脑的神经连接 -->
+  <path d="M242 72 L246 76 L248 72 L252 76" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M260 72 L264 76 L266 72 L270 76" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M244 88 L248 92 L250 88 L254 92" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M258 88 L262 92 L264 88 L268 92" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+  <!-- 大脑的AI光环 -->
+  <circle cx="256" cy="80" r="20" stroke="#00FFFF" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- AI 数据流效果 - 从书本流向人物 -->
+  <path d="M210 180 C230 170 240 150 256 140 C272 150 282 170 302 180" stroke="#00FFFF" stroke-width="3" fill="none" stroke-dasharray="5 5" opacity="0.7"/>
+  <!-- 数据流节点 -->
+  <circle cx="210" cy="180" r="3" fill="#00FFFF" opacity="0.8"/>
+  <circle cx="302" cy="180" r="3" fill="#00FFFF" opacity="0.8"/>
+  
+  <!-- 书本上的数字效果（代表数据/知识） -->
+  <path d="M180 280 L190 290 L200 280" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="225" cy="285" r="5" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  <path d="M245 280 L255 290 L265 280 L255 285 L245 280" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+  <path d="M280 280 L290 290 L300 280" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+</svg>
